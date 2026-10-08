@@ -1,0 +1,104 @@
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body{
+            background:#f2f2f2;
+            padding:40px;
+        }
+
+        .container{
+            width:700px;
+            margin:auto;
+            background:#f7f7f7;
+            border:1px solid #999;
+            padding:20px 30px;
+        }
+
+        .top-text{
+            font-size:12px;
+            margin-bottom:10px;
+        }
+
+        .required{
+            color:red;
+        }
+
+        .steps{
+            margin:10px 0;
+            font-size:13px;
+            font-weight:bold;
+        }
+
+        h3{
+            color:red;
+            margin:20px 0 10px;
+            font-size:18px;
+        }
+
+        .form-group{
+            display:flex;
+            align-items:center;
+            margin-bottom:8px;
+        }
+
+        label{
+            width:180px;
+            text-align:right;
+            padding-right:10px;
+            font-size:13px;
+            font-weight:bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        select,
+        textarea{
+            width:250px;
+            padding:4px;
+            border:1px solid #999;
+        }
+
+        textarea{
+            width:350px;
+            height:80px;
+        }
+
+        .inline{
+            display:flex;
+            align-items:center;
+            gap:10px;
+            flex-wrap:wrap;
+        }
+
+        .radio-group,
+        .checkbox-group{
+            margin-left:190px;
+            margin-bottom:10px;
+            font-size:13px;
+        }
+
+        .small-text{
+            font-size:11px;
+            color:#555;
+        }
+
+        .buttons{
+            text-align:center;
+            margin-top:20px;
+        }
+
+        button{
+            padding:5px 15px;
+            margin:0 5px;
+            border:1px solid #999;
+            cursor:pointer;
+        }
+
+        hr{
+            margin:20px 0;
+        }
